@@ -8,8 +8,6 @@ Release*/
 *.app/
 *.pyc
 .svn/
- 
- 
 #XCode
 *.pbxuser
 *.perspective
@@ -19,48 +17,40 @@ Release*/
 #XCode 4
 xcuserdata
 *.xcworkspace
- 
 #Code::Blocks
 *.depend
 *.layout
- 
 #Visual Studio
 *.sdf
 *.opensdf
 *.suo
 ipch/
- 
 #Eclipse
 .metadata
 local.properties
 .externalToolBuilders
- 
- 
 # OS-specific ignore patterns
- 
 #Linux
 *~
 # KDE
 .directory
- 
 #OSX
 .DS_Store
 *.swp
 *~.nib
 # Thumbnails
 ._*
- 
 #Windows
 # Windows image file caches
 Thumbs.db
 # Folder config file
 Desktop.ini
- 
 #Android
 .csettings
 /libs/openFrameworksCompiled/project/android/paths.make
- 
 # Miscellaneous
 .mailmap
 bin/libfmodex.dylib
 bin/ofpg
+bin/*Test
+bin/projectGenerator
